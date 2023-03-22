@@ -7,7 +7,7 @@ class Game {
     this.blues = [];
     this.turn = 'blue';
     this.highlightedSquares = [];
-    this.currentTurnView = document.createElement('p');
+    this.currentTurnView = document.createElement('h1');
     this.possibleMoves = new Set();
 
     this.handlePieceDrop = this.handlePieceDrop.bind(this);
