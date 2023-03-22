@@ -1,0 +1,25 @@
+#board {
+  margin: auto;
+  position: absolute;
+  top: 190px;
+  left: 30px
+}
+
+.square {
+  position: relative;
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.black-square {
+  position: relative;
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: xx-large;
+  background-color: black;
+}
