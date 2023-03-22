@@ -1,4 +1,6 @@
 Chess Game Simulator
+[![Watch the video](https://i.imgur.com/WaEKJi4.png)](https://drive.google.com/file/d/1OV3DI0jdeV5gRcbtBlUWvtuHAwB990TO/view?usp=sharing)
+
 
 Objectives:
 For people who have not known the rules of chess to learn the rules of each piece's move with move suggestions
