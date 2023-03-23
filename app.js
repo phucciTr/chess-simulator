@@ -208,8 +208,7 @@ class Piece {
     for (let i = 0; i < this.possibleMoves.length; i++) {
       const [r, c] = this.possibleMoves[i];
       let targetRow = Number(row) + r, targetCol = Number(col) + c;
-      if (!this.isSuggestedMoveValid(targetRow, targetCol)) { continue; }
-      suggestMove(targetRow, targetCol, i, r, c);
+      if (this.isSuggestedMoveValid(targetRow, targetCol)) { suggestMove(targetRow, targetCol, i, r, c); }
     }
   }
 }
